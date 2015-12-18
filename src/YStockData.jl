@@ -1,4 +1,4 @@
-module YahooStockData
+module YStockData
 
 using Requests
 using Base.Dates
@@ -163,7 +163,7 @@ function to_nullable{T<:AbstractString}(x::T)
     if x == "N/A"
       return Nullable{Float64}()
     else
-      return Nullable(strip(x))
+      return Nullable(strip(replace(x, '\"', ' ')))
     end
   end
 end
