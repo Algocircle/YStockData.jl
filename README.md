@@ -8,7 +8,7 @@
 This package is not yet in the official package repository. Therefore, to install, use the following invocation
 `Pkg.clone("https://github.com/Algocircle/YStockData.jl")`
 
-##Usage
+## Usage
 
 Yahoo Finance generally supports two different mechanisms for querying security data.
 The first returns current values for a set of fields, for a given ticker. In this package
@@ -144,7 +144,7 @@ from 2014-12-18T16:41:53 to 2015-12-18T16:41:53 for 3 tickers
 | 756 | "2014-12-18" | 512.952 | 513.872 | 504.702 | 511.102 | 2926700 | 511.102   | "GOOG" |
 ```
 
-##Disclaimer
+## Disclaimer
 
 Yahoo is a registered trademark of Yahoo Inc. This codebase is provided as is, without any
 warranties, or claims of fitness. It is not affiliated with or endorsed by Yahoo in any way.
